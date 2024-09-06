@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Homepage</title>
+</head>
+<body>
+    
+    <header>
+        <h1><big>Introduction</big></h1>
+        <img src="images/profile.jpg" width="200px">
+        <h3>TORRES, RUSSEL KLEIN D.</h3>
+        <p><strong>BSCS-2B Student</strong></p>
+    </header>
+   
+    <main>
+        <center>
+            <h3><big>About Me</big></h3>
+            <p>I'm a Bachelor of Science in Computer Science student in
+            Kolehiyo ng Lungsod ng Lipa (KLL).
+            I have a great interest in designing websites and solving algorithms.<br><br></p>
+        </center>
+    </main> 
+    
+    <nav class="nav1">
+        <ul>
+            <li><a href="hobbies.html"><big>Hobbies</big></a></li>
+            <li><a href="skills.html"><big>Skills</big></a></li>
+            <li><a href="tools.html"><big>Tools and Technology Stack</big></a></li>
+        </ul>
+    </nav>
+ 
+    <footer>
+    <form>
+        <label for="username">Username: </label><br>
+        <input type="text" id="username" placeholder="Type your name here" required><br><br>
+       
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" placeholder="Type your email here" required><br><br>
+    
+        <label for="message">Message: </label><br>
+        <textarea id="message" rows="3" cols="34" placeholder="Type your message here"></textarea><br><br>
+
+        <label for="country">Country: </label>
+        <select id="country">
+            <option value="Philippines">Philippines</option>
+            <option value="Japan">Japan</option>
+            <option value="South Korea">South Korea</option>
+        </select><br><br>
+
+        <label for="job">Job Type: </label><br>
+        <input type="radio" id="part-time" name="title">
+        <label for="part-time">Part-Time</label><br>
+        <input type="radio" id="full-time" name="title">
+        <label for="full-time">Full-Time</label><br><br>
+       
+        <input type="submit">
+        <input type="reset">
+    </form>
+    </footer>
+</body>
+</html>
